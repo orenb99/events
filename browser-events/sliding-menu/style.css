@@ -1,0 +1,9 @@
+h1{
+    color: purple;
+}
+
+#list{
+    list-style-type:none;
+    visibility: hidden;
+    color: red;
+}
