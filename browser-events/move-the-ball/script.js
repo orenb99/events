@@ -6,7 +6,8 @@ field.addEventListener("click",function moveBall(event){
     let y=event.clientY;
     let xf=x-(ball.width)/1.6;
     let yf=y-(ball.height)/1.6;
-    if(xf<field.clientWidth-ball.width&&yf<field.clientHeight-ball.height){
+    if(xf<field.clientWidth-ball.width&&yf<field.clientHeight-ball.height&&
+        x>ball.width/1.6&&y>ball.height/1.6){
         ball.style.left=xf+"px";
         ball.style.top=yf+"px";
     }
