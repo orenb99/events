@@ -1,0 +1,32 @@
+:root{
+    --imgHeight:100px;
+}
+
+
+div{
+    text-align: center;
+    background-color: brown;
+    border-style: solid;
+    border-color: sienna;
+    width: 40%;
+    position: relative;
+    left: 30%;
+}
+input[type="button"]{
+    position: relative;
+    top: 35px;
+    font-size: 20px;
+}
+
+#next{
+    float: right;
+}
+#back{
+    
+    float: left;    
+}
+img{
+    margin-left: 50px;
+    margin-right: 50px;
+    height: var(--imgHeight);
+}
