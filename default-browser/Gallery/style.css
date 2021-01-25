@@ -1,0 +1,12 @@
+div{
+    text-align: center;
+}
+#main{
+width: 300px;
+}
+img{
+    margin:20px;
+}
+#gallery>img:hover{
+    cursor: pointer;
+}
