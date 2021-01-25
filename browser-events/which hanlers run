@@ -1,0 +1,2 @@
+the following code will alert 1 and then 2 because the removeEventListener doesn't work the way its written there.
+the way its written indicates that its a different function even tho they seem identical.
