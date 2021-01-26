@@ -1,9 +1,8 @@
-li:hover{
+span:hover{
 cursor: pointer;
 font-size: 25px;
 font-weight: bold;
 }
 li{
-    display: list-item;
     font-size: 20px;
 }
