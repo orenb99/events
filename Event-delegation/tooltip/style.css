@@ -1,0 +1,9 @@
+.tooltip{
+    text-align: center;
+    width:fit-content;
+    background-color:red;
+    position: fixed;
+}
+body{
+    height: 200vh;
+}
